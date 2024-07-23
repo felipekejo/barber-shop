@@ -1,3 +1,5 @@
-export function somar(a: number, b: number): number {
-  return a + b;
-}
+export * from './constants';
+export * from './professional';
+export * from './service';
+export * from './user';
+
