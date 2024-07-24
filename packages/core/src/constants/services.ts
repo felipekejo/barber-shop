@@ -3,54 +3,54 @@ import Service from '../service/Service'
 const services: Service[] = [
     {
         id: 1,
-        name: 'Corte Viking',
+        name: 'Viking Cut',
         description:
-            'Venha receber um corte de Viking, com lâmina na pele e estilo de guerreiro. Saia pronto para enfrentar qualquer batalha com um visual que impõe respeito.',
+            'Come and receive a Viking cut, with a blade on your skin and a warrior style. Come out ready to face any battle with a look that commands respect.',
         price: 55,
         qtySlots: 3,
         imgURL: '/services/corte-de-cabelo.jpg',
     },
     {
         id: 2,
-        name: 'Barba de Lenhador',
+        name: 'Lumberjack Beard',
         description:
-            'Venha dar um trato na sua barba de lenhador, com aparo preciso e estilo de macho raiz. Saia com uma barba que impõe respeito e faz tremer até as árvores.',
+            'Come and give your lumberjack beard a makeover, with a precise trim and a masculine root style. Go out with a beard that commands respect and makes even the trees tremble.',
         price: 45,
         qtySlots: 2,
         imgURL: '/services/corte-de-barba.jpg',
     },
     {
         id: 3,
-        name: 'Garras Brutais',
+        name: 'Brutal Claws',
         description:
-            'Venha transformar suas patas de urso em garras de lobo. Nosso serviço de Manicure & Pedicure para homens é tão bruto quanto você, mas com um toque de classe.',
+            'Come and transform your bear paws into wolf claws. Our Manicure & Pedicure service for men is as rough as you are, but with a touch of class.',
         price: 40,
         qtySlots: 2,
         imgURL: '/services/manicure-pedicure.jpg',
     },
     {
         id: 4,
-        name: 'Combo Alpha',
+        name: 'Alpha Combo',
         description:
-            'Nosso combo "Alpha" inclui um corte de cabelo de Viking, uma barba de lenhador e manicure & pedicure de gladiador. Saia pronto para enfrentar qualquer batalha com estilo e unhas afiadas.',
+            'Our "Alpha" combo includes a Viking haircut, a lumberjack beard and a gladiator manicure & pedicure. Get ready to face any battle with style and sharp nails.',
         price: 95,
         qtySlots: 2,
         imgURL: '/services/combo.jpg',
     },
     {
         id: 5,
-        name: 'Pequeno Caçador',
+        name: 'Little Hunter',
         description:
-            'Transforme seu pequeno aventureiro em um mini caçador, com um corte cheio de atitude e estilo. Cabelo afiado como uma guitarra e maneiro como uma Harley.',
+            'Transform your little adventurer into a mini hunter, with a cut full of attitude and style. Hair sharp like a guitar and cool like a Harley.',
         price: 60,
         qtySlots: 2,
         imgURL: '/services/corte-infantil.jpg',
     },
     {
         id: 6,
-        name: 'Noivo Raiz',
+        name: 'Root Groom',
         description:
-            'Prepare-se para o grande dia com um tratamento digno de um verdadeiro guerreiro da estrada. Corte de cabelo afiado, barba de lenhador e manicure de motoqueiro, tudo enquanto você relaxa ao som de rock pesado.',
+            'Get ready for the big day with treatment worthy of a true road warrior. Sharp haircut, lumberjack beard and biker manicure, all while you relax to the sounds of heavy rock.',
         price: 189,
         qtySlots: 2,
         imgURL: '/services/dia-de-noivo.jpg',

@@ -3,9 +3,9 @@ import Professional from '../professional/Professional'
 const professionals: Professional[] = [
     {
         id: 1,
-        name: 'Marcão Machadada',
+        name: 'Marcão the Axe',
         description:
-            'Salve, salve, galera! Sou o Marcão Machadada, o único cabeleireiro que pode transformar uma juba de leão em um corte digno de um rei com um único movimento de tesoura.',
+            "Hey everyone! I'm Marcão The Axe, the only hairdresser who can transform a lion's mane into a king-worthy cut with a single snip of the scissors.",
         imgURL: '/professionals/profissional-1.jpg',
         rating: 5,
         qtyRating: 87,
@@ -14,43 +14,43 @@ const professionals: Professional[] = [
         id: 2,
         name: 'Beto Brutal',
         description:
-            'Quando o assunto é barba, ninguém faz melhor que Beto Brutal! Suas lâminas afiadas são lendárias e seu estilo é inconfundível. Para um visual marcante e robusto, ele é o seu homem!',
+            "When it comes to beards, no one does it better than Beto Brutal! His sharp blades are legendary, and his style is unmistakable. For a striking and robust look, he's your man!",
         imgURL: '/professionals/profissional-2.jpg',
         rating: 4.5,
         qtyRating: 39,
     },
     {
         id: 3,
-        name: 'Kathya Tesourada',
+        name: 'Kathya the Shearer',
         description:
-            'Kathya não tem medo de tesourar! Com precisão e ousadia, ela transforma qualquer cabelo em uma obra-prima rústica. Seu lema? Corte raiz sem perder a feminilidade!',
+           "Kathya isn't afraid to snip! With precision and boldness, she transforms any hair into a rustic masterpiece. Her motto? Root cut without losing femininity!",
         imgURL: '/professionals/profissional-3.jpg',
         rating: 5,
         qtyRating: 91,
     },
     {
         id: 4,
-        name: 'Sérgio Serrador',
+        name: 'Sérgio Sawyer',
         description:
-            'Sérgio é conhecido por sua técnica impecável e estilo único. Com sua serra (ou melhor, tesoura) em mãos, ele cria visuais que impressionam. Barba bem-feita é com ele mesmo!',
+            "Sérgio is known for his impeccable technique and unique style. With his saw (or rather, scissors) in hand, he creates looks that impress. A well-done beard is his specialty!",
         imgURL: '/professionals/profissional-4.jpg',
         rating: 4.5,
         qtyRating: 29,
     },
     {
         id: 5,
-        name: 'Rafa Raspa Tudo',
+        name: 'Rafa the Shaver',
         description:
-            'Para aqueles que preferem um look mais rente, Rafa é o especialista! Sua máquina raspa tudo com precisão, deixando um acabamento perfeito. Raspar é a sua arte!',
+            "For those who prefer a closer look, Rafa is the expert! His machine shaves everything with precision, leaving a perfect finish. Shaving is his art!",
         imgURL: '/professionals/profissional-5.jpg',
         rating: 4.5,
         qtyRating: 44,
     },
     {
         id: 6,
-        name: 'Fernanda Faísca',
+        name: 'Fernanda Sparky',
         description:
-            'Fernanda traz um toque de brilho e energia a cada corte. Com suas lâminas ágeis, ela faz milagres em qualquer tipo de cabelo. Precisa de um look cheio de faísca? É com ela mesmo!',
+           "Fernanda brings a touch of shine and energy to every cut. With her agile blades, she works miracles on any type of hair. Need a look full of spark? She's your go-to!",
         imgURL: '/professionals/profissional-6.jpg',
         rating: 5,
         qtyRating: 46,

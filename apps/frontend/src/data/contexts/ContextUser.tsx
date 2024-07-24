@@ -5,7 +5,7 @@ import { createContext, useCallback, useEffect, useState } from 'react'
 import useLocalStorage from '../hooks/useLocalStorage'
 
 export interface ContextUserProps {
-    carregando: boolean
+    loading: boolean
     user: User | null
     login: (user: User) => Promise<void>
     logout: () => void
@@ -13,10 +13,10 @@ export interface ContextUserProps {
 
 const ContextUser = createContext<ContextUserProps>({} as any)
 
-export function ProvedorUser({ children }: any) {
+export function UserProvider({ children }: any) {
     const { get, set } = useLocalStorage()
     const router = useRouter()
-    const [carregando, setCarregando] = useState(true)
+    const [loading, setLoading] = useState(true)
     const [user, setUser] = useState<User | null>(null)
 
     const carregarUser = useCallback(
@@ -27,7 +27,7 @@ export function ProvedorUser({ children }: any) {
                     setUser(userLocal)
                 }
             } finally {
-                setCarregando(false)
+                setLoading(false)
             }
         },
         [get]
@@ -49,7 +49,7 @@ export function ProvedorUser({ children }: any) {
     return (
         <ContextUser.Provider
             value={{
-                carregando,
+                loading,
                 user,
                 login,
                 logout,
