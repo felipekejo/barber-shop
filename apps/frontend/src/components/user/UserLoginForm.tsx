@@ -1,8 +1,10 @@
 'use client'
 
+import useUser from "@/data/hooks/useUser"
 import { zodResolver } from "@hookform/resolvers/zod"
 import Image from "next/image"
 import { useRouter, useSearchParams } from "next/navigation"
+import { useEffect } from "react"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 import Logo from "../shared/Logo"
@@ -20,11 +22,19 @@ export default function UserLoginForm() {
   const {register, handleSubmit} = useForm<UserLoginFormSchema>({
     resolver:zodResolver(userLoginSchema),
   })
+
+  const {user, login} = useUser()
   const params = useSearchParams()
   const router = useRouter()
-
+  
+  useEffect(() => {
+    if (user?.email) {
+        const dest = params.get('destino') as string
+        router.push(dest ? dest : '/')
+    }
+}, [user, router, params])
   function handleSubmitUser(data: UserLoginFormSchema) {
-    
+    login(data)
   }
 
   return (
